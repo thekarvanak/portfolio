@@ -326,6 +326,19 @@ body::before {
     gap: 2px;
 }
 
+.skill-name-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.skill-logo {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
 .skill-lang {
     font-size: 1rem;
     font-weight: 600;
@@ -518,6 +531,26 @@ body::before {
     gap: 8px;
 }
 
+.cert-item {
+    background: var(--bg-tertiary);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    text-align: center;
+    border: 1px solid var(--border);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.cert-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
 .cert-grid span {
     background: var(--bg-tertiary);
     padding: 8px 12px;
@@ -570,10 +603,20 @@ body::before {
     font-size: 0.9rem;
     opacity: 0.8;
     transition: opacity 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .footer-right a:hover {
     opacity: 1;
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
 }
 
 /* ============================================
